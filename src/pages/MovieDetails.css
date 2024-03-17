@@ -1,0 +1,49 @@
+.detailsContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.col{
+    max-width: 400px;
+    margin: 15px;
+    height: auto;
+    width: 80%;
+}
+
+.movieImage{
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.title{
+    margin-top: 0;
+}
+
+.description{
+    text-align: justify;
+}
+
+.movieDetails{
+    font-size: 1.5rem;
+}
+
+.link{
+    text-decoration: none;
+    color: #FFE0D4;
+}
+
+.link:hover{
+    color: coral;
+    cursor: pointer;
+}
+
+@media (max-width: 760px) {
+    .detailsContainer {
+        flex-direction: column;
+    }
+    .col{
+        margin: 15px;
+        max-width: 450px;
+        width: 90%;
+    }
+}
